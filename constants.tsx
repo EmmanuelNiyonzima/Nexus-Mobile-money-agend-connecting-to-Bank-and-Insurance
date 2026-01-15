@@ -13,7 +13,7 @@ import {
   Activity,
   ArrowRight
 } from 'lucide-react';
-import { Language } from './types';
+import { Language } from './types.ts';
 
 export const TRANSLATIONS: Record<Language, any> = {
   EN: {

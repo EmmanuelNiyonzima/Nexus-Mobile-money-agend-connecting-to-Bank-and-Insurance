@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Globe, ChevronDown } from 'lucide-react';
-import { TRANSLATIONS } from '../constants';
-import { Language } from '../types';
+import { TRANSLATIONS } from '../constants.tsx';
+import { Language } from '../types.ts';
 
 interface LayoutProps {
   children: React.ReactNode;

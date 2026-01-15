@@ -12,14 +12,13 @@ import {
   Smartphone,
   CheckCircle2,
   AlertCircle,
-  // Added missing icons used in the component
   Globe,
   Building2,
   Umbrella
 } from 'lucide-react';
-import { Language } from './types';
-import { TRANSLATIONS, PROBLEMS, SOLUTIONS, PRICING, ROADMAP } from './constants';
-import Layout from './components/Layout';
+import { Language } from './types.ts';
+import { TRANSLATIONS, PROBLEMS, SOLUTIONS, PRICING, ROADMAP } from './constants.tsx';
+import Layout from './components/Layout.tsx';
 
 const App: React.FC = () => {
   const [lang, setLang] = useState<Language>('EN');
